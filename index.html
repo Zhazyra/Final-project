@@ -3,11 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=H, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world</h1>
-    <p>Start a project</p>
+   <header class="mx-20 py-6">
+    <div class="container flex items-center justify-between mx-auto px-4">
+<img src="./assets/breakio.svg" alt="">
+<ul class="flex items-center text-base gap-x-4">
+    <li class=" border-0 ml-4">
+        <a class="block inline no-underline py-4 py-0" href="#">Exlpore</a>
+    </li>
+    <li class="border-0 ml-4">
+        <a class="block inline no-underline py-4 py-0" href="#">Solutions</a>
+    </li>
+    <li class="border-0 ml-4">
+        <a class="block inline no-underline py-4 py-0" href="#">About</a>
+    </li>
+    <li class="border-0 ml-4">
+        <a class="block inline no-underline py-4 py-0" href="#">Blog</a>
+    </li>
+    <li class="border-0 ml-4">
+        <a class="block inline no-underline py-4 py-0" href="#">Log In</a>
+    </li>
+    <li>
+        <button class="bg-fuchsia-600 text-white rounded-2xl p-3 border-2 border-fuchsia-600 px-4 py-0 text-xs">Start now</button>
+    </li>
+</ul>
+    </div>
+   </header>
+   <div>
+   <div class="space-y-6">
+    <h1 class="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-fuchsia-600 to-fuchsia-900 text-center">It’s time to take a break</h1>
+    <h6 class="text-center text-[#475569] text-xl">Build your meditation skills with an app that gives you all you need!</h6>
+   <div class="flex flex-row justify-center gap-x-4">
+    <input class="border border-slate-300 rounded-3xl px-6 py-1 placeholder:text-black placeholder:font-extralight" type="text" placeholder="Enter your name" >
+    <button class="bg-fuchsia-600 text-white rounded-3xl p-3 border-2 border-fuchsia-600 px-4 py-0 text-xl">Start now</button>
+   </div>
+<div class="flex justify-center ">
+    <img class="w-[1245px] h-[465px] rounded-3xl shadow-lg" src="./assets/Picture.png" alt="">
+</div>
+</div>
+</div>
+
+<div class="w-[1440px] h-[1316px] py-20">
+    <div class="space-y-6 py-20 px-20">
+     <h1 class="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-fuchsia-600 to-fuchsia-900 text-center">Get better everyday</h1>
+     <h6 class="text-center text-[#475569] text-xl">Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis pulvinar <br> purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.</h6>
+     <div class="flex flex-row justify-center gap-x-4">
+        <button class="bg-fuchsia-600 text-white rounded-3xl p-3 border-2 border-fuchsia-600 px-4 py-0 text-xl">Start now</button>
+    </div>
+    </div>
+    <div>
+        <div class="ml-60 absolute w-[977px] h-[626px] ">
+<img src="./assets/Desktop.svg" alt="">
+</div>
+<div class="w-[350px] h-[750px] relative left-[995px] top-20">
+    <img src="./assets/Mobile-App-Placeholder-1.svg" alt="">
+</div>
+<div class="flex flex-row relative bottom-[400px] left-24 items-center gap-x-2 bg-white border-2 w-64 h-20 rounded-3xl border-black shadow-2xl shadow-slate-900">
+    <div>
+    <img class="mx-4" src="./assets/User Thumb.png" alt="">
+</div>
+    <div>
+    <p class="text-base">Splash</p>
+    <p class="text-sm">by Rwanda Melflor</p>
+    </div>
+</div>
+
+<div class="flex flex-col w-80 h-[300px] relative bottom-96 left-24 bg-white border-2 w-80 h-56 rounded-3xl border-black shadow-2xl shadow-slate-900">
+<img class="w-80 h-56 rounded-t-3xl" src="./assets/Picture-2.png" alt="">
+<div class="flex flex-row items-center gap-x-2 py-6 ">
+    <div>
+    <img class="mx-4" src="./assets/User Thumb.svg" alt="">
+</div>
+    <div>
+    <p class="text-base">Colorfull face</p>
+    <p class="text-sm">by Melvina Spring</p>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div>
+<div class="space-y-6 py-20 px-20">
+    <h1 class="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-fuchsia-600 to-fuchsia-900 text-center">Stories from our users</h1>
+    <h6 class="text-center text-[#475569] text-xl">Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis pulvinar <br>purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.</h6>
+</div>
+
+<div class="flex flex-row gap-x-6 px-36">
+   <button class="bg-white shadow-lg hover:bg-white shadow-lg shadow-gray-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M10.757 11.9999L15.707 16.9499C15.8025 17.0422 15.8787 17.1525 15.9311 17.2745C15.9835 17.3965 16.0111 17.5278 16.0122 17.6605C16.0134 17.7933 15.9881 17.925 15.9378 18.0479C15.8875 18.1708 15.8133 18.2824 15.7194 18.3763C15.6255 18.4702 15.5138 18.5445 15.3909 18.5948C15.268 18.645 15.1364 18.6703 15.0036 18.6692C14.8708 18.668 14.7396 18.6404 14.6176 18.588C14.4956 18.5356 14.3852 18.4594 14.293 18.3639L8.63599 12.7069C8.44852 12.5194 8.3432 12.2651 8.3432 11.9999C8.3432 11.7348 8.44852 11.4805 8.63599 11.2929L14.293 5.63594C14.4816 5.45378 14.7342 5.35298 14.9964 5.35526C15.2586 5.35754 15.5094 5.46271 15.6948 5.64812C15.8802 5.83353 15.9854 6.08434 15.9877 6.34654C15.9899 6.60873 15.8891 6.86133 15.707 7.04994L10.757 11.9999Z" fill="#475569"/>
+  </svg></button>
+    <div class="flex flex-row gap-x-6">
+        <div class="flex flex-col w-[266px] h-[300px] bg-white border-[1px] border-gray-200 shadow-[0_35px_60px_-15px_rgba(0,0,4,0)] shadow-slate-200 w-[266] h-56 rounded-3xl border-black">
+            <img class="w-[266px] h-56 rounded-t-3xl" src="./assets/Picture-3.png" alt="">
+            <div class="flex flex-row items-center gap-x-2 py-6 ">
+                <div>
+                <img class="mx-4" src="./assets/User Thumb-2.png" alt="">
+            </div>
+                <div>
+                <p class="text-base">Flower Decorations</p>
+                <p class="text-sm">by Melvina Spring</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="flex flex-col w-[266px] h-[300px] bg-white border-[1px] border-gray-200 shadow-[0_35px_60px_-15px_rgba(0,0,4,0)] shadow-slate-200 w-[266] h-56 rounded-3xl border-black">
+                <img class="w-[266px] h-56 rounded-t-3xl" src="./assets/Picture-4.png" alt="">
+                <div class="flex flex-row items-center gap-x-2 py-6 ">
+                    <div>
+                    <img class="mx-4" src="./assets/User Thumb-3.png" alt="">
+                </div>
+                    <div>
+                    <p class="text-base">Flower Decorations</p>
+                    <p class="text-sm">by Melvina Spring</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="flex flex-col w-[266px] h-[300px] bg-white border-[1px] border-gray-200 shadow-[0_35px_60px_-15px_rgba(0,0,4,0)] shadow-slate-200 w-[266] h-56 rounded-3xl border-black">
+                    <img class="w-[266px] h-56 rounded-t-3xl" src="./assets/Picture-5.png" alt="">
+                    <div class="flex flex-row items-center gap-x-2 py-6 ">
+                        <div>
+                        <img class="mx-4" src="./assets/User Thumb.png" alt="">
+                    </div>
+                        <div>
+                        <p class="text-base">Splash</p>
+                        <p class="text-sm">by Rwanda Melflor</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="flex flex-col w-[266px] h-[300px] bg-white border-[1px] border-gray-200 shadow-[0_35px_60px_-15px_rgba(0,0,4,0)] shadow-slate-200 w-[266] h-56 rounded-3xl border-black">
+                        <img class="w-[266px] h-56 rounded-t-3xl" src="./assets/Picture-2.png" alt="">
+                        <div class="flex flex-row items-center gap-x-2 py-6 ">
+                            <div>
+                            <img class="mx-4" src="./assets/User Thumb.svg" alt="">
+                        </div>
+                            <div>
+                            <p class="text-base">Colorfull face</p>
+                            <p class="text-sm">by Melvina Spring</p>
+                            </div>
+                        </div>
+                        </div>
+
+
+    </div>
+    <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M13.314 12.071L8.36402 7.12098C8.18187 6.93238 8.08107 6.67978 8.08335 6.41758C8.08563 6.15538 8.1908 5.90457 8.37621 5.71916C8.56161 5.53375 8.81243 5.42859 9.07462 5.42631C9.33682 5.42403 9.58942 5.52482 9.77802 5.70698L15.435 11.364C15.6225 11.5515 15.7278 11.8058 15.7278 12.071C15.7278 12.3361 15.6225 12.5905 15.435 12.778L9.77802 18.435C9.58942 18.6171 9.33682 18.7179 9.07462 18.7157C8.81243 18.7134 8.56161 18.6082 8.37621 18.4228C8.1908 18.2374 8.08563 17.9866 8.08335 17.7244C8.08107 17.4622 8.18187 17.2096 8.36402 17.021L13.314 12.071Z" fill="#475569"/>
+      </svg></button>
+</div>
+</div>
 
 </body>
 </html>
